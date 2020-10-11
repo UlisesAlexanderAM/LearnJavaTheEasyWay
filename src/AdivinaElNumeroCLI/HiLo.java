@@ -1,3 +1,5 @@
+package AdivinaElNumeroCLI;
+
 import java.util.Scanner;
 
 public class HiLo {
