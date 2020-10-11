@@ -10,11 +10,11 @@ public class HiLo {
 		String jugarNuevamente;
 		do {
 			// Crea un numero random para que el usuario adivine.
-			int numero = (int) (Math.random() * 100 + 1);
+			int numero = (int) (Math.random() * 500 - 250);
 			//System.out.println("numero = " + numero);
 			int prediccion = 0;
 			while (prediccion != numero) {
-				System.out.println("Adivina un numero entre 1 y 100: ");
+				System.out.println("Adivina un numero entre -250 y 250: ");
 				prediccion = scanner.nextInt();
 				if (prediccion < numero)
 					System.out.println(prediccion + " es muy bajo. Inténtelo de nuevo.");
